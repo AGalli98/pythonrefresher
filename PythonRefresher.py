@@ -14,7 +14,7 @@ import matplotlib.pyplot as plt
 x = np.arange(0,2*np.pi,0.1)
 y_sin = np.sin(x)
 y_cos = np.cos(x)
-
+y_tan = np.tan(x)
 
 # In[12]:
 
@@ -22,6 +22,7 @@ y_cos = np.cos(x)
 f,ax = plt.subplots()
 ax.plot(x,y_sin)
 ax.plot(x,y_cos)
+ax.plot(x,y_tan)
 
 
 # In[ ]:
